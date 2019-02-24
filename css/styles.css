@@ -1,0 +1,126 @@
+.my-pannel {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.carousel .item {
+  height: 500px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+
+.home-section {
+	text-align: center;
+	margin: 5% 0% 5% 5%;
+	padding: 5% 0% 5% 0%;
+}
+
+/*Contact form css*/
+
+.contact-form {
+	text-align: center;
+	background-color: #ffc47c;
+	margin: 2% 20% 0% 20%; 
+	padding: 1% 5% 2% 5%;
+}
+
+/*p {
+	font-size: 25px;
+	color: red;
+	margin-left: 20px;
+	display: inline;
+	position: fixed;
+}*/
+
+.input-field {
+	width: 350px;
+	height: 25px;
+}
+
+.input-field-state {
+	width: 100px;
+	height: 25px;
+	margin-left: 2%;
+	display: inline-block;
+}
+
+#submit {
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.about{
+	margin: 10px 80px 0px 80px;
+	padding: 0% 5% 0% 5%;
+}
+
+.jumbotron{
+	background-color: #ffc47c !important;
+}
+
+.menu-card {
+	width: 100%;
+ 	display: flex;
+	max-width: 900px !important;
+	margin-top: 1%;
+	justify-content: center;
+
+}
+
+.menu {
+	text-align: center;
+	display: inline-block;
+	padding: 0px; 
+}
+
+
+/*Orders page css*/
+
+.col-sm-2 {
+	margin-right: 10px !important;
+}
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:70%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+}
+
+.orders-page {
+	width: 100%;
+ 	display: flex;
+	max-width: 900px !important;
+	margin-top: 1%;
+	justify-content: center;
+}
